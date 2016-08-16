@@ -1,6 +1,6 @@
 const DOMNodeCollection = require("./dom_node_collection");
 
-window.$l = function (selector) {
+window.$d = function (selector) {
   if (typeof selector === 'string') {
     let allNodes = Array.from(document.querySelectorAll(selector));
     let collection = new DOMNodeCollection(allNodes);
@@ -15,7 +15,7 @@ window.$l = function (selector) {
   }
 };
 
-$l.extend = (baseObject, ...otherObjects) => {
+$d.extend = (baseObject, ...otherObjects) => {
   otherObjects.forEach( object => {
     Object.keys(object).forEach( option => {
       baseObject[option] = object[option];
@@ -24,7 +24,7 @@ $l.extend = (baseObject, ...otherObjects) => {
   return baseObject;
 };
 
-$l.ajax = (options) => {
+$d.ajax = (options) => {
   let defaults = {
     url: "/",
     method: 'GET',
@@ -33,7 +33,7 @@ $l.ajax = (options) => {
     success: () => {},
     error: () => {}
   };
-  let completeOptions = $l.extend(defaults, options);
+  let completeOptions = $d.extend(defaults, options);
 
   let xhr = new XMLHttpRequest();
   xhr.open(completeOptions.method, completeOptions.url);
