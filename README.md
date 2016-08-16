@@ -9,37 +9,35 @@ dommmDaniel uses vanilla JavaScript and the native DOM API to recreate the funct
 5. Start using dommmDaniel!
 
 ## Docs
-`$d(selector)`
+**`$d(selector)`**
 
-`$d.ajax()`
+**`$d.ajax()`**
 
 #### DOMNodeCollection API
 After selecting elements and creating a `DOMNodeCollection` with the core `$d` function, you can use the following `DOMNodeCollection.prototype` functions:
 
-`.html()`
-  * `.html()`
-  * `.html(string)`
+**`.html()`**
+  * **`.html()`**
+  * **`.html(string)`**
 
-`.empty`
+**`.append(collection)`**
 
-`.append(collection)`
+**`.attr()`**
+  * **`.attr(attribute)`**
+  * **`.attr(attribute, value)`**
 
-`.attr()`
-  * `.attr(attribute)`
-  * `.attr(attribute, value)`
+**`.addClass(className)`**
 
-`.addClass(className)`
+**`.removeClass(className)`**
 
-`.removeClass(className)`
+**`.children()`**
 
-`.children()`
+**`.parent()`**
 
-`.parent()`
+**`.find(selector)`**
 
-`.find(selector)`
+**`.remove()`**
 
-`.remove()`
+**`.on()`**
 
-`.on()`
-
-`.off()`
+**`.off()`**
