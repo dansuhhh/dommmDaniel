@@ -6,7 +6,7 @@ dommmDaniel uses vanilla JavaScript and the native DOM API to allow for manipula
 2. In the header of your root html file, include the path to dommmDaniel.js in a `script` tag.
 3. Start using dommmDaniel!
 
-*Editing dommmDaniel*
+#### *Editing dommmDaniel*
 1. Download the [dommmDaniel folder][folder].
 2. Place the dommmDaniel folder in your project directory.
 3. In the header of your root html file, include the path to dommmDaniel.js in a `script` tag.
