@@ -12,7 +12,7 @@ dommmDaniel uses vanilla JavaScript and the native DOM API to allow for manipula
 3. In the header of your root html file, include the path to dommmDaniel.js in a `script` tag.
 4. Edit anything you'd like in main.js or dom_node_collection.js
 5. Run `webpack dommmDaniel/main.js dommmDaniel/dommmDaniel.js`
-4. Start using your updated dommmDaniel!
+6. Start using your updated dommmDaniel!
 
 ## Docs
 **`$d(selector)`**
