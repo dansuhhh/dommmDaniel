@@ -2,10 +2,17 @@
 dommmDaniel uses vanilla JavaScript and the native DOM API to allow for manipulating the DOM, handling events, and making AJAX requests.
 
 ## Getting Started
-1. Download the repo.
+1. Download [dommmDaniel.js][single].
+2. In the header of your root html file, include the path to dommmDaniel.js in a `script` tag.
+3. Start using dommmDaniel!
+
+*Editing dommmDaniel*
+1. Download the [dommmDaniel folder][folder].
 2. Place the dommmDaniel folder in your project directory.
 3. In the header of your root html file, include the path to dommmDaniel.js in a `script` tag.
-4. Start using dommmDaniel!
+4. Edit anything you'd like in main.js or dom_node_collection.js
+5. Run `webpack dommmDaniel/main.js dommmDaniel/dommmDaniel.js`
+4. Start using your updated dommmDaniel!
 
 ## Docs
 **`$d(selector)`**
@@ -61,3 +68,6 @@ After selecting elements and creating a `DOMNodeCollection` with the core `$d` f
 
 **`.off(type, callback)`**
   * removes an event listener of the given `type` and `callback` from each node in the `DOMNodeCollection`.
+
+[single]: https://github.com/dansuhhh/dommmDaniel/blob/master/dommmDaniel.js.zip
+[folder]: https://github.com/dansuhhh/dommmDaniel/blob/master/dommmDaniel.zip
