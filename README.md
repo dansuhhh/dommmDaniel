@@ -4,9 +4,8 @@ dommmDaniel uses vanilla JavaScript and the native DOM API to allow for manipula
 ## Getting Started
 1. Download the repo.
 2. Place the dommmDaniel folder in your project directory.
-3. Run `webpack dommmDaniel/main.js dommmDaniel/dommmDaniel.js` in Terminal.
-4. In the header of your root html file, include the path to dommmDaniel.js in a `script` tag.
-5. Start using dommmDaniel!
+3. In the header of your root html file, include the path to dommmDaniel.js in a `script` tag.
+4. Start using dommmDaniel!
 
 ## Docs
 **`$d(selector)`**
